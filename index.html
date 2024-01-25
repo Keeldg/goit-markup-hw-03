@@ -18,12 +18,12 @@
   </head>
   <body>
     <!--Navigation bar-->
-    <header>
+    <header class="page-header">
       <div class="container">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-web">Studio</span></a
+        >
         <nav>
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-web">Studio</span></a
-          >
           <ul class="links">
             <li><a href="./index.html" class="akt-link">Studio</a></li>
             <li><a href="" class="akt-link">Portfolio</a></li>
@@ -50,7 +50,9 @@
       <!--Section 1 Hero image-->
       <section class="image">
         <div class="container">
-          <h1 class="image-title">Effective Solutions for Your Business</h1>
+          <div class="container-hero-title">
+            <h1 class="image-title">Effective Solutions for Your Business</h1>
+          </div>
           <button class="image-button" type="button">Order Service</button>
         </div>
       </section>
@@ -96,44 +98,60 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list">
-              <img
-                class="photo"
-                src="./images/img1.jpg"
-                alt="Designer image"
-                width="264"
-              />
-              <h3 class="team-title-name">Mark Guerrero</h3>
-              <p class="team-title-pos">Product Designer</p>
+              <div class="container-team">
+                <div class="container-team-img">
+                  <img
+                    class="photo"
+                    src="./images/img1.jpg"
+                    alt="Designer image"
+                    width="264"
+                  />
+                </div>
+                <h3 class="team-title-name">Mark Guerrero</h3>
+                <p class="team-title-pos">Product Designer</p>
+              </div>
             </li>
             <li class="team-list">
-              <img
-                class="photo"
-                src="./images/img2.jpg"
-                alt="Image of the developer"
-                width="264"
-              />
-              <h3 class="team-title-name">Tom Ford</h3>
-              <p class="team-title-pos">Frontend Developer</p>
+              <div class="container-team">
+                <div class="container-team-img">
+                  <img
+                    class="photo"
+                    src="./images/img2.jpg"
+                    alt="Image of the developer"
+                    width="264"
+                  />
+                </div>
+                <h3 class="team-title-name">Tom Ford</h3>
+                <p class="team-title-pos">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list">
-              <img
-                class="photo"
-                src="./images/img3.jpg"
-                alt="Image of a marketer"
-                width="264"
-              />
-              <h3 class="team-title-name">Camila Garcia</h3>
-              <p class="team-title-pos">Marketing</p>
+              <div class="container-team">
+                <div class="container-team-img">
+                  <img
+                    class="photo"
+                    src="./images/img3.jpg"
+                    alt="Image of a marketer"
+                    width="264"
+                  />
+                </div>
+                <h3 class="team-title-name">Camila Garcia</h3>
+                <p class="team-title-pos">Marketing</p>
+              </div>
             </li>
             <li class="team-list">
-              <img
-                class="photo"
-                src="./images/img4.jpg"
-                alt="Designer image"
-                width="264"
-              />
-              <h3 class="team-title-name">Daniel Wilson</h3>
-              <p class="team-title-pos">UI Designer</p>
+              <div class="container-team">
+                <div class="container-team-img">
+                  <img
+                    class="photo"
+                    src="./images/img4.jpg"
+                    alt="Designer image"
+                    width="264"
+                  />
+                </div>
+                <h3 class="team-title-name">Daniel Wilson</h3>
+                <p class="team-title-pos">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -145,34 +163,61 @@
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul>
             <li>
-              <img src="./images/img5.jpg" alt="Image" width="360" />
-              <h3 class="portfolio-name">Banking App</h3>
-              <p class="portfolio-par">App</p>
+              <div class="container-portfolio">
+                <div class="container-portfolio-card">
+                  <img src="./images/img5.jpg" alt="Image" width="360" />
+                </div>
+                <div class="container-portfolio-content">
+                  <h3 class="portfolio-name">Banking App</h3>
+                  <p class="portfolio-par">App</p>
+                </div>
+              </div>
             </li>
             <li>
-              <img src="./images/img6.jpg" alt="Image" width="360" />
-              <h3 class="portfolio-name">Cashless Payment</h3>
-              <p class="portfolio-par">Marketing</p>
+              <div class="container-portfolio">
+                <div class="container-portfolio-card">
+                  <img src="./images/img6.jpg" alt="Image" width="360" />
+                </div>
+                <h3 class="portfolio-name">Cashless Payment</h3>
+                <p class="portfolio-par">Marketing</p>
+              </div>
             </li>
             <li>
-              <img src="./images/img7.jpg" alt="Image" width="360" />
-              <h3 class="portfolio-name">Meditation App</h3>
-              <p class="portfolio-par">App</p>
+              <div class="container-portfolio">
+                <div class="container-portfolio-card">
+                  <img src="./images/img7.jpg" alt="Image" width="360" />
+                </div>
+                <h3 class="portfolio-name">Meditation App</h3>
+                <p class="portfolio-par">App</p>
+              </div>
             </li>
             <li>
-              <img src="./images/img8.jpg" alt="Image" width="360" />
-              <h3 class="portfolio-name">Taxi Service</h3>
-              <p class="portfolio-par">Marketing</p>
+              <div class="container-portfolio">
+                <div class="container-portfolio-card">
+                  <img src="./images/img8.jpg" alt="Image" width="360" />
+                </div>
+                <h3 class="portfolio-name">Taxi Service</h3>
+                <p class="portfolio-par">Marketing</p>
+              </div>
             </li>
             <li>
-              <img src="./images/img9.jpg" alt="Image" width="360" />
-              <h3 class="portfolio-name">Screen Illustrations</h3>
-              <p class="portfolio-par">Design</p>
+              <div class="container-portfolio">
+                <div class="container-portfolio-card">
+                  <img src="./images/img9.jpg" alt="Image" width="360" />
+                </div>
+                <h3 class="portfolio-name">Screen Illustrations</h3>
+                <p class="portfolio-par">Design</p>
+              </div>
             </li>
+
             <li>
-              <img src="./images/img10.jpg" alt="Image" width="360" />
-              <h3 class="portfolio-name">Online Courses</h3>
-              <p class="portfolio-par">Marketing</p>
+              <div class="container-portfolio">
+                <div class="container-portfolio-card">
+                  <img src="./images/img10.jpg" alt="Image" width="360" />
+                </div>
+                <h3 class="portfolio-name">Online Courses</h3>
+                <p class="portfolio-par">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>

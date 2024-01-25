@@ -28,10 +28,13 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+}
 
 .container {
   width: 100%;
-  max-width: 1128;
+  max-width: 1158;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -39,6 +42,15 @@ ul {
 }
 
 /*Navigation bar*/
+.page-header {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page-header .container {
+  display: flex;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -54,6 +66,7 @@ ul {
 }
 
 .links {
+  display: flex;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -63,6 +76,8 @@ ul {
   color: #2e2f42;
 }
 .links .akt-link {
+  display: block;
+  padding: 8px 12px;
   color: #2e2f42;
 }
 .links .akt-link:hover {
@@ -97,6 +112,11 @@ ul {
 }
 
 /*Section 1 Hero image*/
+.container-hero-title {
+  padding: 188px 472px 48px 472px;
+}
+.container-hero-batton {
+}
 .image {
   color: #fff;
   background-color: #2e2f42;
@@ -144,6 +164,18 @@ ul {
 }
 
 /*Section 3 Our Team*/
+.container-team {
+  width: 264px;
+  height: 380px;
+  padding-bottom: 32px;
+  border: 2px dashed red;
+}
+.container-team-img {
+  height: 100%;
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -185,6 +217,22 @@ ul {
 }
 
 /*Section 4 Our Portfolio*/
+.container-portfolio {
+  width: 360px;
+  height: 420px;
+  padding-bottom: 32px;
+  border: 2px dashed red;
+}
+.container-portfolio-card {
+  height: 100%;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.container-portfolio-content {
+  width: 360px;
+  height: 56px;
+}
 .portfolio {
   background-color: #ffffff;
 }
