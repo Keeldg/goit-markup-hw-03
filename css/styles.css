@@ -89,9 +89,7 @@ p {
 .links-item {
   padding: 24px 0;
 }
-.akt-link {
-  padding: 24px 0;
-}
+
 .links .link {
   color: #2e2f42;
 }
@@ -185,7 +183,7 @@ p {
   line-height: 1.2;
   padding: 120px 0;
 }
-.visualy-hidden {
+.visually-hidden {
   visibility: hidden;
 }
 
