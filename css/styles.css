@@ -83,6 +83,9 @@ img {
   padding: 24px 0;
   gap: 40px;
 }
+.akt-link {
+  padding: 24px 0;
+}
 .links .link {
   color: #2e2f42;
 }
@@ -208,11 +211,11 @@ img {
 }
 
 /*Section 3 Our Team*/
-.container-team {
+/*.container-team {
   width: 264px;
   height: 380px;
   padding-bottom: 32px;
-}
+}*/
 .container-team-img {
   height: 100%;
   height: 260px;
