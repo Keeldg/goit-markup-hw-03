@@ -47,8 +47,9 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.page-header .container {
+.header-container {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -59,10 +60,18 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-web {
   color: #2e2f42;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 332px;
 }
 
 .links {
@@ -71,6 +80,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  flex-grow: 1;
+  gap: 40px;
 }
 .links .link {
   color: #2e2f42;
@@ -91,16 +102,21 @@ img {
 }
 
 .contacts {
+  display: flex;
   font-style: normal;
+  align-items: center;
 }
 .contacts-links {
+  display: flex;
   color: #434455;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  width: calc((100% - 40px) / 2);
 }
 .contacts-links-info {
+  display: flex;
   color: #434455;
 }
 
@@ -112,10 +128,11 @@ img {
 }
 
 /*Section 1 Hero image*/
-.container-hero-title {
-  padding: 188px 472px 48px 472px;
-}
-.container-hero-batton {
+
+.hero-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .image {
   color: #fff;
@@ -127,6 +144,8 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  margin-top: 165px;
+  margin-bottom: 48px;
 }
 .image-button {
   cursor: pointer;
@@ -136,6 +155,10 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-bottom: 308px;
 }
 
 .image-button:hover {
@@ -148,6 +171,17 @@ img {
 /*Section 2 Strategy*/
 .desc {
   line-height: 1.2;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+
+.content-container {
+  display: flex;
+  gap: 24px;
+}
+.content-item {
+  width: calc((100% - 24px) / 4);
 }
 .desc-title {
   color: #2e2f42;
@@ -188,13 +222,16 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.team-list-container {
+  display: flex;
+  width: calc((100% - 72px) / 4);
+}
 .team-list {
   background-color: #ffffff;
 }
 .photo {
   display: inline-flex;
   padding-bottom: 32px;
-  background-color: aqua;
 }
 
 .team-title-name {
@@ -205,7 +242,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   padding-bottom: 8px;
-  background-color: aqua;
 }
 .team-title-pos {
   text-align: center;
@@ -213,12 +249,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding-bottom: 32px;
-  background-color: aqua;
 }
 
 /*Section 4 Our Portfolio*/
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 .container-portfolio {
-  width: 360px;
+  width: calc((100% - 96px) / 6);
   height: 420px;
   padding-bottom: 32px;
   border: 2px dashed red;

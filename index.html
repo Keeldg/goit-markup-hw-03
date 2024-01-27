@@ -19,11 +19,11 @@
   <body>
     <!--Navigation bar-->
     <header class="page-header">
-      <div class="container">
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-web">Studio</span></a
-        >
-        <nav>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-web">Studio</span></a
+          >
           <ul class="links">
             <li><a href="./index.html" class="akt-link">Studio</a></li>
             <li><a href="" class="akt-link">Portfolio</a></li>
@@ -49,40 +49,38 @@
     <main>
       <!--Section 1 Hero image-->
       <section class="image">
-        <div class="container">
-          <div class="container-hero-title">
-            <h1 class="image-title">Effective Solutions for Your Business</h1>
-          </div>
+        <div class="container hero-image-container">
+          <h1 class="image-title">Effective Solutions for Your Business</h1>
           <button class="image-button" type="button">Order Service</button>
         </div>
       </section>
       <!--Section 2 Strategy-->
       <section class="desc">
         <div class="container">
-          <h2>Content</h2>
-          <ul>
-            <li>
+          <h2 class="visually-hidden">Content</h2>
+          <ul class="content-container">
+            <li class="content-item">
               <h3 class="desc-title">Strategy</h3>
               <p class="desc-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="content-item">
               <h3 class="desc-title">Punctuality</h3>
               <p class="desc-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="content-item">
               <h3 class="desc-title">Diligence</h3>
               <p class="desc-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="content-item">
               <h3 class="desc-title">Technologies</h3>
               <p class="desc-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -96,59 +94,55 @@
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul class="team-list">
+          <ul class="team-list-container">
             <li class="team-list">
               <div class="container-team">
-                <div class="container-team-img">
-                  <img
-                    class="photo"
-                    src="./images/img1.jpg"
-                    alt="Designer image"
-                    width="264"
-                  />
-                </div>
+                <img
+                  class="photo"
+                  src="./images/img1.jpg"
+                  alt="Designer image"
+                  width="264"
+                />
+
                 <h3 class="team-title-name">Mark Guerrero</h3>
                 <p class="team-title-pos">Product Designer</p>
               </div>
             </li>
             <li class="team-list">
               <div class="container-team">
-                <div class="container-team-img">
-                  <img
-                    class="photo"
-                    src="./images/img2.jpg"
-                    alt="Image of the developer"
-                    width="264"
-                  />
-                </div>
+                <img
+                  class="photo"
+                  src="./images/img2.jpg"
+                  alt="Image of the developer"
+                  width="264"
+                />
+
                 <h3 class="team-title-name">Tom Ford</h3>
                 <p class="team-title-pos">Frontend Developer</p>
               </div>
             </li>
             <li class="team-list">
               <div class="container-team">
-                <div class="container-team-img">
-                  <img
-                    class="photo"
-                    src="./images/img3.jpg"
-                    alt="Image of a marketer"
-                    width="264"
-                  />
-                </div>
+                <img
+                  class="photo"
+                  src="./images/img3.jpg"
+                  alt="Image of a marketer"
+                  width="264"
+                />
+
                 <h3 class="team-title-name">Camila Garcia</h3>
                 <p class="team-title-pos">Marketing</p>
               </div>
             </li>
             <li class="team-list">
               <div class="container-team">
-                <div class="container-team-img">
-                  <img
-                    class="photo"
-                    src="./images/img4.jpg"
-                    alt="Designer image"
-                    width="264"
-                  />
-                </div>
+                <img
+                  class="photo"
+                  src="./images/img4.jpg"
+                  alt="Designer image"
+                  width="264"
+                />
+
                 <h3 class="team-title-name">Daniel Wilson</h3>
                 <p class="team-title-pos">UI Designer</p>
               </div>
@@ -161,7 +155,7 @@
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul>
+          <ul class="portfolio-container">
             <li>
               <div class="container-portfolio">
                 <div class="container-portfolio-card">
