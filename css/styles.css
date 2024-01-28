@@ -45,9 +45,6 @@ img {
 
 /*Navigation bar*/
 .page-header {
-  margin-bottom: 20px;
-  padding-top: 16px;
-  padding-bottom: 16px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -74,7 +71,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
+  margin-right: auto;
 }
 
 .links {
@@ -143,15 +140,11 @@ img {
 
 /*Section 1 Hero image*/
 
-.hero-image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .image {
   color: #fff;
   background-color: #2e2f42;
   padding: 188px 0;
+  text-align: center;
 }
 .image-title {
   max-width: 496px;
@@ -160,7 +153,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  margin-top: 165px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 .image-button {
@@ -175,7 +168,6 @@ img {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  margin-bottom: 308px;
 }
 
 .image-button:hover {
@@ -248,7 +240,6 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 .team-list-container {
@@ -280,7 +271,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-bottom: 32px;
 }
 
 /*Section 4 Our Portfolio*/
@@ -298,7 +288,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio {
   background-color: #ffffff;
@@ -309,10 +298,9 @@ img {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 2.51; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.51; /* 120% */
+  letter-spacing: 0.04px;
   text-transform: capitalize;
-  margin-top: 240px;
   margin-bottom: 72px;
 }
 .portfolio-name {
@@ -360,5 +348,6 @@ img {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
-/*2024 01 27*/
+/*2024 01 28*/
