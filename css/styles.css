@@ -157,6 +157,7 @@ img {
   margin-bottom: 48px;
 }
 .image-button {
+  display: block;
   cursor: pointer;
   color: #fff;
   background-color: #4d5ae5;
